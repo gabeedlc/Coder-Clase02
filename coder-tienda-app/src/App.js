@@ -1,6 +1,6 @@
 import './App.css';
-import { FaBeer } from 'react-icons/fa';
-import NavbarComponent from './components/navbar';
+import NavbarComponent from './components/Navbar';
+import { ItemListContainer } from './Containers/ItemListContainer';
 
 function App() {
   return (
@@ -8,14 +8,12 @@ function App() {
 
     <div className="App">
       <NavbarComponent />
-      <header className="App-header">
-        <h1>Coder Tienda App</h1>
+      <div className="App-header">
+      <ItemListContainer text={"Bienvenidos a la Coder Tienda"} />
         <p>
-          Entrega clase 03
+          Desafio entregable #3
         </p>
-
-        
-      </header>
+      </div>
     </div>
     </>
   );
