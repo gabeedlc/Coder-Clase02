@@ -9,7 +9,7 @@ const CartWidgetComponent = () => {
 
     return (
         <>
-            <button type="button" className="btn btn-outline-secondary me-2">
+            <button type="button" className="btn btn-outline-secondary me-auto ms-auto">
                 <HiOutlineShoppingCart /><span className="badge bg-secondary ms-2">0</span>
             </button>
         </>
